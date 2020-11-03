@@ -17,7 +17,10 @@ public class Vectordemo {
 		  a1.add(55);
 		  a1.add(89);
 		  System.out.println(a1);
-		  a1.add(3,72);
-		  System.out.println(a1);
-	}
+		  
+		  for(int x:a1) {
+			 
+		  
+			  System.out.println(x);
+		  }	}
 }
