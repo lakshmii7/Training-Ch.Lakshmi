@@ -18,7 +18,7 @@ import javax.servlet.http.HttpSession;
 	public class DoctorLogin extends HttpServlet {
 		Connection con=null;
 		PreparedStatement ps=null;
-		
+	//ll	
 	    public void init(ServletConfig config) { 
 	    	try {
 	    	Class.forName("com.mysql.cj.jdbc.Driver");
